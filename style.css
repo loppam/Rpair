@@ -139,12 +139,12 @@ img.mad {
   align-items: center;
 }
 /* ==================== INDEX.HTML Start ============== */
-/* ==================== Create.HTML Start ============== */
+/* ==================== login.HTML Start ============== */
 .loginavatar {
   height: 25rem;
   width: 213px;
 }
-form {
+form.loginm {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
@@ -178,10 +178,11 @@ input::placeholder {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .forgot {
   text-transform: capitalize;
   font-family: Lato;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
@@ -193,4 +194,25 @@ input::placeholder {
   text-decoration: none;
 }
 
+/* ==================== login.HTML End ============== */
+
+/* ==================== Create.HTML Start ============== */
+form.createm {
+  margin-top: 102px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
 /* ==================== Create.HTML End ============== */
+
+/* ==================== OTP.HTML Start ============== */
+form.otp {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+/* ==================== OTP.HTML End ============== */
